@@ -8,4 +8,5 @@ dependencies = [
     "langchain>=0.3.25",
     "langchain-chroma>=0.2.3",
     "langchain-ollama>=0.3.2",
+    "pandas>=2.2.3",
 ]
