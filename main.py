@@ -1,7 +1,7 @@
 from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
+from config import OLLAMA_IP
 
-OLLAMA_IP = "http://172.27.160.1:11434"
 model = OllamaLLM(model="llama3.2:1b", base_url=OLLAMA_IP)
 
 
