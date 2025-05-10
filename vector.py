@@ -6,6 +6,7 @@ import pandas as pd
 from config import OLLAMA_IP
 
 df = pd.read_csv("realistic_restaurant_reviews.csv")
+print("documet csv shape :" , df.shape)
 
 embeddings = OllamaEmbeddings(model="mxbai-embed-large", base_url=OLLAMA_IP)
 

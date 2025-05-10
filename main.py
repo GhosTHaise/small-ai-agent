@@ -8,7 +8,7 @@ model = OllamaLLM(model="llama3.2:1b", base_url=OLLAMA_IP)
 template = """
     You are an expert in answering questions about a pizza restaurent
     
-    Here are some relevant reviews: {reviews}
+    Here are some relevant reviews: {reviews} but take only the page_content to answer
     
     Here is the question to answer: {question}
 """
